@@ -32,8 +32,8 @@ public class RecursiveRandAmSandlerMovieGenerator {
 	public static void getMovie(ArrayList<String> movieList, boolean firstRecursion) {
 		
 		if (movieList.size() == 0) {
-			System.out.println("Oops! There are no more movies left. You are either not a Adam Sandlar fan or you are simply too picky.\n\n"
-					+ "Please restart RandAm Sandler when you become more resonable.");
+			System.out.println("Oops! There are no more movies left. You are either not an Adam Sandlar fan or you are simply too picky.\n\n"
+					+ "Please restart RandAm Sandler when you become more reasonable.");
 			return;
 		}
 		
